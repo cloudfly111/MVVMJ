@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/drawable/dialog_background.xml" value="0.4466666666666667" />
         <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/dialog_select_image.xml" value="0.4466666666666667" />
         <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/item_image.xml" value="0.1859375" />
       </map>
     </option>

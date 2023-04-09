@@ -42,7 +42,7 @@ public class MyListAdapter extends ListAdapter<Image,MyListAdapter.ImageViewHold
     @Override
     public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
         Image currentItem = getItem(position);
-//        holder
+        holder.bind(currentItem);
     }
 
     protected class ImageViewHolder extends RecyclerView.ViewHolder{
@@ -50,6 +50,8 @@ public class MyListAdapter extends ListAdapter<Image,MyListAdapter.ImageViewHold
         public ImageViewHolder(@NonNull ItemImageBinding itemView) {
             super(itemView.getRoot());
         }
-
+        public void bind(Image imageData){
+            binding.imageViewId.setImageResource(Integer.valueOf(imageData.imageResource));
+        }
     }
 }

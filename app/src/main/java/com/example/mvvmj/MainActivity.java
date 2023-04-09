@@ -1,16 +1,25 @@
 package com.example.mvvmj;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.provider.CalendarContract;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListAdapter;
 
 import com.example.mvvmj.databinding.ActivityMainBinding;
 
+import java.io.File;
+import java.io.FilenameFilter;
+
 public class MainActivity extends AppCompatActivity {
 
 
+    private static final String TAG = "MainActivity" ;
     private ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,4 +31,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(view);
 
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        SelectImageDialog dialog = new SelectImageDialog(MainActivity.this);
+        dialog.show();
+    }
+
+
+
 }
