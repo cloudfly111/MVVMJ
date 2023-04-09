@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MVVMJ</string>
+    <string-array name="image">
+        <item>p3</item>
+        <item>p2</item>
+        <item>p3</item>
+
+    </string-array>
 </resources>

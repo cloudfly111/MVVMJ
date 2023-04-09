@@ -3,6 +3,7 @@ package com.example.mvvmj;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import com.example.mvvmj.databinding.ActivityMainBinding;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,8 +38,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         SelectImageDialog dialog = new SelectImageDialog(MainActivity.this);
+        String[] imageArray = getResources().getStringArray(R.array.image);
+        dialog.setArray(imageArray);
         dialog.show();
+
+
     }
+
+
 
 
 
