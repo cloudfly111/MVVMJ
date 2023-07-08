@@ -4,6 +4,6 @@
         <item>p3</item>
         <item>p2</item>
         <item>p3</item>
-
     </string-array>
+    <string name="select_date">選擇日期</string>
 </resources>

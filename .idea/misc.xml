@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/drawable/button_background.xml" value="0.107" />
         <entry key="..\:/side_project/MVVMJ/app/src/main/res/drawable/dialog_background.xml" value="0.4466666666666667" />
-        <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/dialog_select_image.xml" value="0.29914529914529914" />
         <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/item_image.xml" value="0.1859375" />
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/s2.xml" value="0.1" />
+        <entry key="..\:/side_project/MVVMJ/app/src/main/res/layout/spinner_date_picker.xml" value="0.22" />
       </map>
     </option>
   </component>

@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CustomDatePickerDialogTheme">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
 </resources>

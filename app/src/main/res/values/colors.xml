@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="button_color">#C2EF8D</color>
+    <color name="outer_text">#B6C7CF</color>
+    <color name="center_text">#03090C</color>
+    <color name="divider"></color>
 </resources>
